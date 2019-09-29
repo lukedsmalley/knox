@@ -38,7 +38,7 @@ app.get('/tools', (request, response) => {
 app.get('/abstractions', (request, response) => {
   response.send(JSON.stringify([
     ['Compiler', 'Parser', 'Scanner'],
-    ["SignatureFlags", 'SyntaxKind', 'parseJsonText'],
+    ['SignatureFlags', 'SyntaxKind', 'parseJsonText'],
     ['parseIsolatedEntityName', 'isExternalModule'],
     ['updateSourceFile', 'createNode', 'NodeConstructor'],
     ['TokenConstructor', 'IdentifierConstructor', 'visitNode<T>']
