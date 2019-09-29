@@ -1,0 +1,23 @@
+.tool-view {
+  width: 100vmin;
+}
+
+.tool {
+  overflow: hidden;
+  border: 1px solid #ccb;
+  border-radius: 8px;
+  display: flex;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.tool__role {
+  background-color: #ccb;
+  padding: 16px;
+  color: #556;
+}
+
+.tool__name {
+  padding: 16px;
+  flex-grow: 1;
+}

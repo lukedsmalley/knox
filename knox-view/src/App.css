@@ -1,0 +1,47 @@
+.button {
+  border-radius: 8px;
+  border: 1px solid #ccb;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button:hover {
+  border-color: #fff;
+  background-color: #445;
+  color: #fff;
+}
+
+.app__menu {
+  display: flex;
+  height: 48px;
+  background-color: #334;
+  align-items: center;
+}
+
+.menu-button {
+  padding: 8px;
+  margin-left: 8px;
+}
+
+.app__workspace {
+  display: flex;
+  align-items: stretch;
+  height: calc(100vh - 48px);
+}
+
+.app__view-holder {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__view-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  color: #556;
+}

@@ -1,0 +1,4 @@
+node_modules
+knox*/node_modules
+knox-view/build
+knox-serve/lib

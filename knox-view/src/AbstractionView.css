@@ -1,0 +1,37 @@
+.abstraction-view {
+  width: 100vmin;
+}
+
+.layer {
+  display: flex;
+  margin-top: 16px;
+}
+
+.layer:nth-child(even) {
+  margin-left: 64px;
+}
+
+.abstraction {
+  border: 1px solid #ccb;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'Consolas', Courier, monospace;
+  font-weight: 500;
+  padding: 24px;
+  min-width: 96px;
+  margin-left: 16px;
+}
+
+.abstraction-0 {
+  border-color: #ccb;
+}
+
+.abstraction-1 {
+  border-color: #aa9;
+  color: #aa9;
+}
+
+.abstraction-2 {
+  border-color: #998;
+  color: #998;
+}
